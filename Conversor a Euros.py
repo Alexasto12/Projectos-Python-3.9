@@ -1,0 +1,5 @@
+print("¡Bienvenido al conversor de divisas!")
+Libras= float(input ("Introduzca la cantidad deseada en Libras: "))
+Euros= float(Libras*1.16)
+print("{} Libras son: {} euros.".format(Libras,Euros))
+nada= input ("Esa es tu cantidad")
