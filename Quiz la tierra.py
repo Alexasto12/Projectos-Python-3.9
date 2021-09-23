@@ -64,3 +64,11 @@ else:
     print("Esa no era una respuesta válida")
 print("Tu puntuación es: {} puntos.".format (Puntuacion))
 
+if Puntuacion <=9:
+    print("No tienes ni idea vuelve a la ESO")
+
+elif Puntuacion <=20:
+    print("No esta mal pero deberias practicar mas")
+
+elif Puntuacion >=21:
+    print("Madremia de locos el bicho de la Geografia")
